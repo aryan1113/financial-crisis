@@ -21,7 +21,7 @@ function ContentViewer({ selectedId, isCheatSheet }) {
           return
         }
 
-        const response = await fetch(`./lecture_summary/${file}`)
+        const response = await fetch(`./${file}`)
         const text = await response.text()
 
         const html = marked(text)
