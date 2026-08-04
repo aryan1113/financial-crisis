@@ -1,4 +1,4 @@
-# Lecture 17: Early Warning Indicators of Financial Crises (Mridul Saggar, IIM Kozhikode)
+# Lecture 17: Early Warning Indicators of Financial Crises
 
 ## Key Concepts
 - Indicators are classified as leading, coincident, lagging, or unrelated to crisis; crisis episodes are scored as binary (1 = crisis, 0 = otherwise) for empirical/statistical testing.

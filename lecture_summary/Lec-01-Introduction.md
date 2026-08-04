@@ -1,4 +1,4 @@
-# Lecture 1: Introduction to Financial Crises — definitions, typology, and historical sweep
+# Lecture 1: Introduction to Financial Crises: definitions, typology, and historical sweep
 
 ## Key Concepts
 
