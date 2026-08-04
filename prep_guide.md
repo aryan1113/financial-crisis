@@ -1,29 +1,21 @@
 # Simulation Prep & Study Guide
 
-Your complete roadmap for prepping the Financial Crisis role-play simulation. Read this **once before starting**, then skim sections 1 & 2 again right before the simulation.
+Read this **once before starting**, then skim sections 1 & 2 again right before the simulation.
 
 ---
 
-## Overview: What You're Being Evaluated On
+## Overview: 
 
-**As Media/Press:**
-1. **Interviews during the live press conference** — questions that sound reactive but are actually coordinated, catch contradictions, reference the actual toolkit
-2. **Press reports** — written copy tracking how the crisis unfolds (quality of reporting, not technical depth)
-
-**What separates good press from great press:**
 - Listen hard to what's actually said, then cross-question contradictions in real time
-- Ask questions that force daylight between the central bank and government positions
-- Reference the IMF toolkit strategically by name (RFI vs SBA vs EFF)
-- Don't over-prepare; let the live statement guide your follow-ups
+- Ask questions that force attention between the central bank and government positions
+- Maybe reference the IMF instruments by name (RFI vs SBA vs EFF)
+- Don't over-prepare, let the live statement guide your follow-ups
 
 ---
 
 ## Section 1: Reading Plan — What to Read in Priority Order
 
-**Golden rule:** Read Tier 1 first (covers any crisis), then pick one Tier 2 based on your guess about the scenario type.
-
 ### Tier 1 — Read First (Applies to ANY Crisis)
-*Estimated time: 2 hours. Non-negotiable.*
 
 | Lecture | Why |
 |---|---|
