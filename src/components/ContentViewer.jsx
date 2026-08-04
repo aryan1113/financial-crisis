@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { marked } from 'marked'
-import { lectures, cheatSheet } from '../data'
+import { lectures, cheatSheet, prepGuide } from '../data'
 import '../styles/ContentViewer.css'
 
-function ContentViewer({ selectedId, isCheatSheet }) {
+function ContentViewer({ selectedId, isCheatSheet, isPrepGuide }) {
   const [content, setContent] = useState('')
   const [loading, setLoading] = useState(true)
 
@@ -11,9 +11,14 @@ function ContentViewer({ selectedId, isCheatSheet }) {
     const fetchContent = async () => {
       setLoading(true)
       try {
-        const file = isCheatSheet
-          ? cheatSheet.file
-          : lectures.find(l => l.id === selectedId)?.file
+        let file
+        if (isCheatSheet) {
+          file = cheatSheet.file
+        } else if (isPrepGuide) {
+          file = prepGuide.file
+        } else {
+          file = lectures.find(l => l.id === selectedId)?.file
+        }
 
         if (!file) {
           setContent('<p>Content not found</p>')
@@ -35,10 +40,11 @@ function ContentViewer({ selectedId, isCheatSheet }) {
     }
 
     fetchContent()
-  }, [selectedId, isCheatSheet])
+  }, [selectedId, isCheatSheet, isPrepGuide])
 
   const getLectureTitle = () => {
     if (isCheatSheet) return cheatSheet.title
+    if (isPrepGuide) return prepGuide.title
     return lectures.find(l => l.id === selectedId)?.title || 'Select a lecture'
   }
 

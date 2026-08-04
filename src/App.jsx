@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Sidebar from './components/Sidebar'
 import ContentViewer from './components/ContentViewer'
 import SearchBar from './components/SearchBar'
-import { lectures, cheatSheet } from './data'
+import { lectures, cheatSheet, prepGuide } from './data'
 import './styles/App.css'
 
 function App() {
@@ -34,20 +34,36 @@ function App() {
     setSearchQuery('')
   }
 
+  const handleSelectPrepGuide = () => {
+    setSelectedLecture('prep-guide')
+    setSearchQuery('')
+  }
+
   const isCheatSheetSelected = selectedLecture === 'cheat-sheet'
+  const isPrepGuideSelected = selectedLecture === 'prep-guide'
+  const isSpecialContent = isCheatSheetSelected || isPrepGuideSelected
 
   return (
     <div className="app">
       <header className="app-header">
         <div className="header-content">
           <h1>Financial Crisis Course</h1>
-          <button
-            className={`cheat-sheet-btn ${isCheatSheetSelected ? 'active' : ''}`}
-            onClick={handleSelectCheatSheet}
-            title="Quick reference guide"
-          >
-            📋 Cheat Sheet
-          </button>
+          <div className="header-buttons">
+            <button
+              className={`special-btn ${isPrepGuideSelected ? 'active' : ''}`}
+              onClick={handleSelectPrepGuide}
+              title="Study plan and simulation strategy"
+            >
+              🎯 Prep Guide
+            </button>
+            <button
+              className={`special-btn ${isCheatSheetSelected ? 'active' : ''}`}
+              onClick={handleSelectCheatSheet}
+              title="Quick reference guide"
+            >
+              📋 Cheat Sheet
+            </button>
+          </div>
         </div>
       </header>
 
@@ -69,6 +85,7 @@ function App() {
           <ContentViewer
             selectedId={selectedLecture}
             isCheatSheet={isCheatSheetSelected}
+            isPrepGuide={isPrepGuideSelected}
           />
         </main>
       </div>

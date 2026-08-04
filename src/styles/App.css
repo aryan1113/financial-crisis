@@ -71,6 +71,13 @@ body {
   letter-spacing: -0.5px;
 }
 
+.header-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.special-btn,
 .cheat-sheet-btn {
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
@@ -83,11 +90,13 @@ body {
   transition: all 0.2s;
 }
 
+.special-btn:hover,
 .cheat-sheet-btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
   border-color: rgba(255, 255, 255, 0.5);
 }
 
+.special-btn.active,
 .cheat-sheet-btn.active {
   background-color: white;
   color: var(--primary);

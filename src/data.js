@@ -120,6 +120,13 @@ export const cheatSheet = {
   category: 'Quick Reference'
 };
 
+export const prepGuide = {
+  id: 'prep-guide',
+  title: 'Simulation Prep & Study Guide',
+  file: 'prep_guide.md',
+  category: 'Quick Reference'
+};
+
 export const categories = [
   'Foundations',
   'Institutions',
