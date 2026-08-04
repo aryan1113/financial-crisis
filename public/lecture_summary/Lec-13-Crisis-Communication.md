@@ -1,0 +1,18 @@
+# Lecture 13: Communication During Crisis Times
+
+## Key Concepts
+
+- **Draghi's "whatever it takes" (July 2012)**: A single sentence of forward guidance from the ECB President turned around the Euro crisis — peripheral bond spreads fell from 500+ bps to 100-200 bps, saving an est. €200bn in funding costs, equities recovered, and the euro rebounded, though it also fed a build-up of leverage and lending to "zombie firms."
+- **Evolution of central bank communication**: shifted from a deliberate strategy of *obfuscation* to avoid tipping markets (Greenspan's famously opaque style) to an era of *transparency* for better policy transmission and stability (Blinder's "cacophony of voices" warning against inconsistent messaging). Driven by changes in monetary policy frameworks and the rise of social media as a communication channel.
+- **The "Common Man" problem**: expert communication has improved over three decades, but communication to non-experts remains weak — even though inflation expectations of ordinary people matter more (first-order) than market expectations (second-order). BoE's proposed fix: the **3 E's** — Explanation, Engagement, Education (Haldane et al., 2020).
+- **Principles for public communication during financial stress**: clarity of objectives (transmit confidence, prevent creditor runs, communication must accompany real policy action not substitute for it); clearly state who is affected and what's being done (does this touch my money/access to funds?); deliver bad news plainly and definitively without alarm; never describe a problem without a solution (unaddressed problems invite runs); don't over-promise (avoid absolute guarantees that can be falsified by a single new event).
+- **Coordination principles**: speak with one voice across agencies; prepare for "media wars" from challenged stakeholders; coordinate across government/financial agencies through one or few spokespersons; prepare materials/decisions in advance; communicate early enough to forestall a crisis (via Financial Stability Reports that neither underplay nor overplay risk); back communication with action (macroprudential measures) if words alone don't restore confidence.
+- **Communicating under uncertainty**: use scenario analysis (best/worst/likely-case planning) rather than single-point forecasts; techniques for handling model uncertainty — min-max/robust control for worst cases, Bayesian model averaging, fan charts (visualizing uncertainty ranges) instead of point forecasts, and using a suite of models since "models are wrong but are all useful." Cites an IMF-Bank of Canada joint stress test using a trade-war scenario to assess bank solvency.
+
+## Why This Matters
+
+This lecture is almost entirely **conceptual/narrative** — it is about communication strategy, principles, and case history rather than mathematical modeling (the one technical aside on robust-control/Bayesian techniques is mentioned by name only, not derived). For someone with only a basic macroeconomics background (money supply, exchange rates, inflation, forex reserves), this material is **fully accessible** — no formulas or quantitative machinery are required to follow the arguments.
+
+## Relevance to the Crisis Simulation
+
+**High.** This lecture reads almost like a script for the simulation itself: the principles (one voice, clear bad news, no over-promising, be ready for media challenges, link messages to "is my money safe") map directly onto how the RBI Governor/Deputy Governors and Finance Minister should behave during the live press-conference Q&A, and the Draghi case study is a template for how a single well-crafted statement can move markets in-scenario.
