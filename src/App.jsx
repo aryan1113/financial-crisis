@@ -2,14 +2,35 @@ import { useState, useEffect } from 'react'
 import Sidebar from './components/Sidebar'
 import ContentViewer from './components/ContentViewer'
 import SearchBar from './components/SearchBar'
-import Footer from './components/Footer'
 import { lectures, cheatSheet, prepGuide } from './data'
 import './styles/App.css'
 
 function App() {
-  const [selectedLecture, setSelectedLecture] = useState(lectures[0].id)
+  const [selectedLecture, setSelectedLectureState] = useState(() => {
+    // Initialize from URL hash
+    const hash = window.location.hash.slice(1)
+    return hash || lectures[0].id
+  })
   const [searchQuery, setSearchQuery] = useState('')
   const [filteredLectures, setFilteredLectures] = useState(lectures)
+
+  // Wrapper to update both state and URL
+  const setSelectedLecture = (id) => {
+    setSelectedLectureState(id)
+    window.location.hash = id
+  }
+
+  // Listen for browser back/forward
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.slice(1)
+      if (hash) {
+        setSelectedLectureState(hash)
+      }
+    }
+    window.addEventListener('hashchange', handleHashChange)
+    return () => window.removeEventListener('hashchange', handleHashChange)
+  }, [])
 
   useEffect(() => {
     if (searchQuery.trim() === '') {
@@ -50,6 +71,15 @@ function App() {
         <div className="header-content">
           <h1>Financial Crisis Course</h1>
           <div className="header-buttons">
+            <a
+              href="./plan.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="special-btn"
+              title="Personal study plan"
+            >
+              📝 Plan for me
+            </a>
             <button
               className={`special-btn ${isPrepGuideSelected ? 'active' : ''}`}
               onClick={handleSelectPrepGuide}
@@ -90,8 +120,6 @@ function App() {
           />
         </main>
       </div>
-
-      <Footer />
     </div>
   )
 }
