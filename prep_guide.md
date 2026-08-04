@@ -27,11 +27,11 @@ Your complete roadmap for prepping the Financial Crisis role-play simulation. Re
 
 | Lecture | Why |
 |---|---|
-| **Lec-13 Crisis Communication** | The actual script for press conference format: one voice, plain bad news, never a problem without a solution. Relevant to every role, not just Press. |
-| **Lec-05 IMF & World Bank** | IMF lending-facility taxonomy (SBA/EFF/RFI/FCL). Directly answers "which instrument was used?" |
-| **Lec-17 Early Warning Indicators** | Checklist (reserves, credit growth, credit-to-GDP gap, money-market stress) RBI/IMF roles cite as evidence. |
-| **Lec-03 Aggregates & Indicators** | BoP, FX reserves, external debt, fiscal deficit vocabulary. India's own 1966 & 1991 BoP crises as precedent. |
-| **Lec-02 Monetary Policy** | The actual toolkit (repo rate, CRR/SLR, forward guidance, UMPTs) RBI roles would announce. |
+| **[Lec-13 Crisis Communication](#crisis-communication)** | The actual script for press conference format: one voice, plain bad news, never a problem without a solution. Relevant to every role, not just Press. |
+| **[Lec-05 IMF & World Bank](#imf-world-bank)** | IMF lending-facility taxonomy (SBA/EFF/RFI/FCL). Directly answers "which instrument was used?" |
+| **[Lec-17 Early Warning Indicators](#early-warning)** | Checklist (reserves, credit growth, credit-to-GDP gap, money-market stress) RBI/IMF roles cite as evidence. |
+| **[Lec-03 Aggregates & Indicators](#aggregates)** | BoP, FX reserves, external debt, fiscal deficit vocabulary. India's own 1966 & 1991 BoP crises as precedent. |
+| **[Lec-02 Monetary Policy](#monetary)** | The actual toolkit (repo rate, CRR/SLR, forward guidance, UMPTs) RBI roles would announce. |
 
 ### Tier 2 — Scenario Templates (Pick One Based on Likely Crisis Type)
 *Estimated time: 30-60 minutes.*
@@ -40,21 +40,21 @@ Pick based on your hunch about what the scenario will be:
 
 | Lecture | Best fit if... |
 |---|---|
-| **Lec-16 Argentina Currency Crisis** | The crisis is a currency-peg or reserve-depletion scenario |
-| **Lec-10 Asian Financial Crisis** | The crisis is currency + banking-sector stress combined |
-| **Lec-14 Taper Tantrum** | Fed shock hitting EM markets (most India-specific precedent; Fragile Five, Rajan's appointment) |
-| **Lec-15 COVID Crisis** | A shock-driven liquidity/growth crisis needing coordinated fiscal + monetary response |
-| **Lec-09 Select Crises** | Same currency-crisis template (Tequila/ERM), shorter read |
+| **[Lec-16 Argentina Currency Crisis](#argentina)** | The crisis is a currency-peg or reserve-depletion scenario |
+| **[Lec-10 Asian Financial Crisis](#asian-crisis)** | The crisis is currency + banking-sector stress combined |
+| **[Lec-14 Taper Tantrum](#taper-tantrum)** | Fed shock hitting EM markets (most India-specific precedent; Fragile Five, Rajan's appointment) |
+| **[Lec-15 COVID Crisis](#covid)** | A shock-driven liquidity/growth crisis needing coordinated fiscal + monetary response |
+| **[Lec-09 Select Crises](#select-crises)** | Same currency-crisis template (Tequila/ERM), shorter read |
 
 ### Tier 3 — Background Only (Skip Unless You Have Extra Time)
 
-Lec-01, Lec-04, Lec-11, Lec-12, Lec-06, Bond Duration & Convexity — these provide context but aren't critical for the simulation.
+[Lec-01](#intro), [Lec-04](#wars), [Lec-11](#gfc), [Lec-12](#euro-crisis), [Lec-06](#financial-markets), [Bond Duration & Convexity](#bond-duration) — these provide context but aren't critical for the simulation.
 
 ### If You Have Very Limited Time
 
 **Minimum viable prep:**
 1. Read **Tier 1 summaries only** (5 lecture summaries = ~1 hour)
-2. Skim the **Quick Reference - Crisis Simulation Cheat Sheet** (5 minutes)
+2. Skim the **[Quick Reference - Crisis Simulation Cheat Sheet](#cheat-sheet)** (5 minutes)
 3. Read **Section 2 below** on press strategy (10 minutes)
 4. **Total: ~1.5 hours**
 
