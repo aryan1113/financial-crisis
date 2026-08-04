@@ -1,12 +1,16 @@
+# Build & dependencies
 node_modules/
 dist/
 .DS_Store
 *.local
+
+# Python
 .venv
 __pycache__
 markdown_venv
-lecture_markdown
-lectures
-*.docx
 *.py
-plan.txt
+
+# Internal/development files (not part of public repo)
+_internal/                 # PDFs, intermediate conversions, local reference only
+plan.txt                   # Personal study notes
+*.docx                     # Office documents

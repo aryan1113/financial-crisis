@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Sidebar from './components/Sidebar'
 import ContentViewer from './components/ContentViewer'
 import SearchBar from './components/SearchBar'
+import Footer from './components/Footer'
 import { lectures, cheatSheet, prepGuide } from './data'
 import './styles/App.css'
 
@@ -89,6 +90,8 @@ function App() {
           />
         </main>
       </div>
+
+      <Footer />
     </div>
   )
 }

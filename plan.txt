@@ -1,0 +1,66 @@
+FINANCIAL CRISES COURSE — PREREQUISITE ASSESSMENT & STUDY PLAN
+================================================================
+
+Background considered:
+- Data scientist, no formal finance education
+- ~50% through a basic macroeconomics book (money supply, exchange rates,
+  inflation, forex reserves)
+- 10/60 videos into an NPTEL "International Finance Management" course
+- Undecided on CFA/FRM, "bleak interest" — testing the subject out
+
+IS THIS COURSE RIGHT AS A FIRST FINANCE COURSE?
+------------------------------------------------
+Usable, but not zero-prerequisite. It's built for PGP (MBA-equivalent)
+students who've already done a core macro/finance sequence.
+
+Assessed against Lectures 1, 2, 3, 4, 5, 6, 9:
+
+Where background is enough:
+- Lec-4 (Wars & Markets): mostly historical/narrative, light econ overlay. Fine.
+- Lec-5 (IMF/World Bank): institutional detail, self-contained, low math. Fine.
+- Lec-3 (Macro aggregates & BoP): closest overlap with existing background
+  (money supply, BoP, forex reserves); goes one level deeper (BPM6
+  classification, Marshall-Lerner, Domar condition).
+- Lec-9 (Historical crises): narrative-driven, accessible, though the
+  speculative-attack models (Krugman/Obstfeld) assume some monetary theory.
+
+Where real gaps exist:
+- Lec-2 (Monetary Policy): assumes comfort with interest-rate corridor
+  mechanics and time-inconsistency/credibility game theory
+  (Kydland-Prescott, Rogoff, Barro-Gordon). Not in a basic macro book.
+- Lec-6 (Financial Markets) — BIGGEST GAP: assumes bond math (coupon, YTM,
+  duration, convexity) and capital structure theory (Modigliani-Miller,
+  pecking order). This is corporate-finance-101 material, not macro.
+
+RECOMMENDATION
+--------------
+No need for CFA or FRM — overkill for casual/curious interest. Two specific
+building blocks are missing, not a whole finance degree:
+
+1. Finish the basic macro book (currently at 50%). The second half likely
+   covers fiscal policy, IS-LM/AD-AS, and BoP mechanics feeding into Lec-2
+   and Lec-3.
+
+2. Do a short, targeted bond/fixed-income primer — just coupon, yield,
+   duration, and why bond prices move opposite to yields. Unlocks Lec-6 and
+   much of Lec-9's crisis mechanics (bond sell-offs, spreads). No need for
+   the full CFA Level 1 curriculum — a few chapters of a fixed-income intro
+   (e.g. Bodie/Kane/Marcus "Investments," bond pricing chapter, or free
+   resources like Investopedia's bond basics) is enough.
+
+Skip standalone monetary-theory/game-theory prep (time-inconsistency models)
+— rabbit hole for a "curious, not committed" learner. Let the lecture
+context carry it; look up Kydland-Prescott/Rogoff only if it doesn't click.
+
+SUGGESTED FLOW
+--------------
+1. Finish the macro book.
+2. Spend a weekend on bond basics.
+3. Keep going with the NPTEL IFM course in parallel — directly supports
+   Lec-5/Lec-9 exchange-rate content.
+4. Take this course's lectures roughly in order; slow down on Lec-6.
+
+OPEN ITEM
+---------
+Offered to point to specific free resources for the bond-basics primer —
+not yet provided, follow up if wanted.
