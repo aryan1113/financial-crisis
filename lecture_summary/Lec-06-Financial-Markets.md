@@ -1,4 +1,4 @@
-# Lecture 6: Financial Markets — Money Markets, Bond/Debt Markets & FX Markets (Mridul Saggar, IIM Kozhikode)
+# Lecture 6: Financial Markets — Money Markets, Bond/Debt Markets & FX Markets
 
 ## Key Concepts Covered
 
