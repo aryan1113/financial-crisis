@@ -1,6 +1,5 @@
 # Build & dependencies
 node_modules/
-dist/
 .DS_Store
 *.local
 
@@ -12,5 +11,4 @@ markdown_venv
 
 # Internal/development files (not part of public repo)
 _internal/                 # PDFs, intermediate conversions, local reference only
-plan.txt                   # Personal study notes
 *.docx                     # Office documents
