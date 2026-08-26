@@ -25,12 +25,12 @@ financial-crisis/
 
 ## What Gets Deployed vs. Internal
 
-### ✅ Deployed to Webapp
+### Deployed to Webapp
 - `public/lecture_summary/` — cleaned, formatted lecture summaries
 - `public/cheat_sheet.md` — quick reference guide
 - `public/prep_guide.md` — study plan and simulation strategy
 
-### ❌ Not Deployed (Local Reference Only)
+### Not Deployed (Local Reference Only)
 - `_internal/lectures/` — original PDF slides (for reference)
 - `_internal/lecture_markdown/` — raw markdown conversions (intermediate step)
 - `plan.txt` — personal study assessment notes
@@ -70,19 +70,10 @@ npm run deploy
 
 This is intentionally **not shared with students** — it's analysis for the maintainer to understand the course prerequisites and depth. Students should follow the `prep_guide.md` instead.
 
-## Footer Attribution
-
-The webapp includes a footer note clarifying:
-- This is Prof. Mridul Saggar's "Financial Crises" course material (PGP-level, IIM Kozhikode)
-- The learning platform is a student-created resource for organizing these materials
-- Students should refer to official course documents for authoritative content
-
 ## Future Enhancements
 
 - [ ] Add interactive case-study timeline
 - [ ] Add quiz/self-assessment section
-- [ ] Link to actual RBI/IMF policy documents
-- [ ] Add video clips from lectures (if available)
 
 ---
 

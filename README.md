@@ -1,16 +1,5 @@
 # Financial Crisis Course - Interactive Learning Platform
-
-A clean, intuitive web application for learning Prof. Mridul Saggar's **"Financial Crises"** course (PGP-level, IIM Kozhikode). Built with React and designed for organized navigation through course materials and role-play simulation prep.
-
-## Features
-
-- 📚 **16 Lecture Summaries** organized by category (Foundations, Historical Cases, Recent Events, etc.)
-- 🎯 **Simulation Prep Guide** — Study plan, reading priorities, and press strategy for the role-play
-- 📋 **Quick Reference Cheat Sheet** — Crisis identification, IMF facilities, and killer questions
-- 🔍 **Search & Filter** across all lecture materials
-- 🌓 **Dark/Light Mode** support (follows system preference)
-- 📱 **Responsive Design** for desktop and tablet viewing
-- 📖 **Beautiful Markdown Rendering** with syntax highlighting
+For course materials and role-play simulation prep, for the course Financial Crisis by Mridul Saggar.
 
 ## Getting Started
 
@@ -75,7 +64,7 @@ This creates an optimized build in the `dist/` directory.
 
 ## Lecture Content
 
-Lectures are organized into categories:
+Organized into categories:
 
 - **Foundations**: Core concepts (Intro, Monetary Policy, Aggregates, Wars, IMF/World Bank, Financial Markets)
 - **Historical Cases**: Major crises (Asian Crisis, GFC, Euro Crisis, Argentina, etc.)
@@ -85,16 +74,10 @@ Lectures are organized into categories:
 
 ### Preparing for the Role-Play Simulation
 
-1. **Start with the Prep Guide** (🎯 button in header) — outlines which lectures to prioritize based on time
-2. **Read Tier 1 lectures** — covers any crisis type (Monetary Policy, IMF, Early Warning Indicators, etc.)
-3. **Pick one Tier 2 lecture** — based on your guess about the scenario (Argentina, Taper Tantrum, Asian Crisis, etc.)
-4. **Reference the Cheat Sheet** (📋 button) right before the simulation — quick lookup for crisis types, IMF facilities, and killer questions
-
-### Studying Individual Lectures
-
-- Use the search bar to find lectures by topic or name
-- Lectures are organized by category (Foundations, Historical Cases, etc.)
-- Each summary includes key concepts, why it matters, and relevance to the simulation
+1. **Start with the Prep Guide** (button in header): outlines which lectures to prioritize based on time
+2. **Read Tier 1 lectures**: covers any crisis type (Monetary Policy, IMF, Early Warning Indicators, etc.)
+3. **Pick one Tier 2 lecture**: based on your guess about the scenario (Argentina, Taper Tantrum, Asian Crisis, etc.)
+4. **Reference the Cheat Sheet** right before the simulation: quick lookup for crisis types, IMF facilities, and killer questions
 
 ## For Developers: Maintaining This Project
 
@@ -110,19 +93,9 @@ To add or modify lectures:
 3. Update `src/data.js` with metadata
 4. Rebuild and deploy with `npm run deploy`
 
-## Technologies Used
+## Build info
 
 - **React 18** - UI framework
 - **Vite** - Build tool and dev server
 - **Marked** - Markdown parser
 - **GitHub Pages** - Hosting
-
-## Attribution
-
-- **Course content** by Prof. Mridul Saggar, IIM Kozhikode
-- **Platform** built by students for organizing and studying these materials
-- **Original lectures** delivered in the PGP-level "Financial Crises" course (Term IV)
-
-## About
-
-This is a student-created learning platform. For official course materials and assignments, refer to the official course documentation. This platform is designed to help students prepare for the role-play simulation and organize lecture materials for self-study.
